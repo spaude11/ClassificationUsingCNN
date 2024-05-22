@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Load the pre-trained model
-model_path = 'cnn.h5'
+model_path = 'model/cnn.h5'
 model = load_model(model_path)
 
 # Function to preprocess the uploaded image
